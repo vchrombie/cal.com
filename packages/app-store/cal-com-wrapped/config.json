@@ -1,0 +1,28 @@
+{
+  "name": "cal.com wrapped",
+  "slug": "cal-com-wrapped",
+  "type": "cal-com-wrapped_analytics",
+  "logo": "icon.svg",
+  "url": "https://example.com/link",
+  "variant": "analytics",
+  "categories": ["analytics"],
+  "publisher": "Venu Vardhan Reddy Tekula",
+  "email": "vt2182@nyu.edu",
+  "description": "Take a trip down memory lane and rediscover where your time went last year! Cal.com Wrapped app generates an entertaining and insightful retrospective of how you and your team spent your days over the past 12 months.",
+  "extendsFeature": "EventType",
+  "appData": {
+    "tag": {
+      "scripts": [
+        {
+          "src": "https://cdn.example.com/script.js",
+          "attrs": {
+            "data-site": "{TRACKING_ID}"
+          }
+        }
+      ]
+    }
+  },
+  "isTemplate": false,
+  "__createdUsingCli": true,
+  "__template": "booking-pages-tag"
+}
